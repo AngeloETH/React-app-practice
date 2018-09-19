@@ -1,0 +1,92 @@
+.Todo {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: solid;
+    border-color: rgba(0,0,0,0.1);
+
+}
+
+.Form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Form > label > input {
+    margin-left: 10px;
+}
+
+.Form > input:last-child {
+    margin-left: 10px;
+    background:rgb(0, 123, 255);
+    border-radius: 4px;
+    color: white;
+    transition: background 0.3s;
+    border: none;
+
+}
+
+.Form > input:last-child:hover{
+    cursor: pointer;
+    background-color: #0069d9;
+
+}
+
+.Undo{
+    margin-top: 20px;
+    display: inline-block;
+    width: 360px;
+    vertical-align: text-top;
+}
+
+.Undo > ul{
+    padding-left: 20px;
+}
+
+.Undo > ul > li{
+    list-style-type: none;
+    
+}
+
+.Undo > ul > li >input{
+    margin-right: 5px;
+}
+
+.Undo > ul > li > button {
+                margin-left: 5px;
+                background: none;
+				border: none;
+				border-radius: 4px;
+				color: white;
+
+}
+.Undo > ul > li > buttom:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.Undo > ul > li > img{
+    transition: all 0.3s;
+    opacity: 1;
+    z-index: 10;
+}
+
+.Undo > ul > li > img:hove{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.Done{
+        margin-top: 20px;
+        display: inline-block;
+        width: 360px;
+        vertical-align: text-top;
+}
+
+.Done > ul{
+    padding-left: 20px;
+}
+
+.Done > ul > li{
+    list-style-type: none;
+    
+}

@@ -1,0 +1,24 @@
+.unList{
+    padding-left: 0px;
+}
+.list {
+    list-style-type:none;
+    border: solid;
+    border-bottom: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-color: rgba(0,0,0,0.1);
+    transition: 0.5s;
+}
+.list:last-child {
+    border-bottom: solid;
+    border-color: rgba(0,0,0,0.1);
+}
+
+.list:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background: rgb(0, 123, 255);
+    color: white;
+}
