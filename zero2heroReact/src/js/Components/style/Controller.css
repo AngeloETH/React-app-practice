@@ -1,0 +1,31 @@
+.container{
+    max-width: 1200px;
+    margin: 48px auto;
+}
+
+.h1 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: normal;
+}
+.li{
+    list-style-type: none;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+
+}
+.li > ul {
+    margin-top: 16px;
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    font-size: 32px;
+    
+}
+
+.li > ul:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
